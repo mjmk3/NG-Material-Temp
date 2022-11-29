@@ -1,1 +1,22 @@
-<p>sidebar works!</p>
+<mat-nav-list>
+  <div class="logo py-4">
+    <img src="assets/logo.svg" alt="main logo" />
+  </div>
+  <mat-divider></mat-divider>
+  <h2 matSubheader class="mt-2">Apps</h2>
+  <a mat-list-item routerLink="/main" routerLinkActive="list-item-active">
+    <mat-icon>home</mat-icon> Main
+  </a>
+  <a mat-list-item routerLink="/board" routerLinkActive="list-item-active">
+    <mat-icon>dashboard</mat-icon> Dashboard
+  </a>
+  <a mat-list-item routerLink="/board" routerLinkActive="list-item-active">
+    <mat-icon>edit</mat-icon> Test
+  </a>
+  <a mat-list-item routerLink="/board" routerLinkActive="list-item-active">
+    <mat-icon>add</mat-icon> Test
+  </a>
+  <a mat-list-item routerLink="/board" routerLinkActive="list-item-active">
+    <mat-icon>phone</mat-icon> Test
+  </a>
+</mat-nav-list>
